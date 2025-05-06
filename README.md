@@ -25,6 +25,13 @@ SafeStep was built as a full-stack project with both a backend and a frontend:
 
 The project currently runs locally on our machines. You need to start both the backend and frontend servers to use it. While it's not deployed online yet, we hope to host it in the future so it can be used on mobile or edge devices.
 
+
+📦 Model Access
+
+This project relies heavily on a custom-trained YOLOv8 model tailored specifically for detecting crosswalks and green pedestrian signals. Due to its size and hosting limitations, the model file is not included in this repository.
+
+If you're interested in testing or exploring the application, feel free to contact me, and I can share the trained model via Google Drive.
+
 ## Future Plans
 
 - Deploy the application online or to a mobile platform
