@@ -1,0 +1,109 @@
+/*Default Style/Background Style*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #515151;
+  background-image: radial-gradient(circle, #333333 20%, transparent 20%), radial-gradient(circle, transparent 20%, #333333 20%, #333333 40%, transparent 40%);
+  background-size: 5px 5px;
+}
+.App {
+  text-align: center;
+}
+/* Style choice for logo*/
+.App-logo {
+  width: 300px; 
+  height: auto; 
+}
+
+/* Style choice for header*/
+.App-header {
+  background: linear-gradient(to bottom, rgba(137, 204, 214, 0.8), rgba(176, 142, 142, 0)); /* Gradient from opaque to transparent */
+  padding: 10px 20px;
+  height: auto;
+}
+
+/* Camera container style choices */
+.App-camera {
+  width: 100%;
+  max-width: 600px; 
+  border-radius: 10px;
+  margin: 80px auto; 
+  background-color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6); 
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Video element styling */
+video {
+  width: 100%;
+  height: auto; 
+}
+/* Header title styling*/
+h1 {
+  font-size: 72px;
+  background: linear-gradient(180deg, #ffffff, #77ccbe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: -70px; 
+  font-family: 'Helvetica Neue', sans-serif;
+}
+/* Header TWO title styling*/
+h2 {
+  font-size: 40px;
+  background: #ffffff;
+  font-family: 'Helvetica Neue', sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px auto;
+}
+
+/* Style choices for output section*/
+.output-section {
+  margin: 20px auto;
+  background-color: #555555; 
+  border-radius: 10px;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Home Page Styles */
+.HomePage {
+  text-align: center;
+}
+
+.HomePage-header {
+  background: linear-gradient(to bottom, rgba(137, 204, 214, 0.8), rgba(176, 142, 142, 0));
+  padding: 20px;
+}
+
+.HomePage-logo {
+  width: 300px;
+  height: auto;
+}
+
+.HomePage h1 {
+  font-size: 72px;
+  background: linear-gradient(180deg, #ffffff, #77ccbe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 50px;
+}
+
+.HomePage-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #77ccbe;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.HomePage-button:hover {
+  background-color: #5fa9a0;
+}
